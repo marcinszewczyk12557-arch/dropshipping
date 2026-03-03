@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/index.html</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-<url><loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/elektronika-uzytkowa.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-<url><loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/bezpieczenstwo.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-<!-- Powtórz dla pozostałych 35 podstron -->
+<url><loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/index.html</loc></url>
+<url><loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/elektronika-uzytkowa.html</loc></url>
+<url><loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/bezpieczenstwo.html</loc></url>
+<url><loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/maszyny-przemyslowe.html</loc></url>
+<url><loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/chemikalia.html</loc></url>
+<url><loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/tkaniny-i-surowce-tekstylne.html</loc></url>
+<url><loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/komponenty-elektroniczne-akcesoria-i-telekomunikacja.html</loc></url>
+<url><loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/narzedzia-i-sprzet.html</loc></url>
+<url><loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/prezenty-i-rekodzielo.html</loc></url>
+<url><loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/rolnictwo.html</loc></url>
+<!-- Kontynuuj w tej samej strukturze dla wszystkich 37 kategorii -->
 </urlset>
