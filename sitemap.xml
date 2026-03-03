@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<!-- Strona główna -->
 <url>
   <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/</loc>
   <lastmod>2026-03-03</lastmod>
@@ -9,7 +8,7 @@
   <priority>1.0</priority>
 </url>
 
-<!-- Podstrony kategorii -->
+<!-- Lista wszystkich kategorii -->
 <url>
   <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/elektronika-uzytkowa.html</loc>
   <lastmod>2026-03-03</lastmod>
@@ -24,74 +23,6 @@
   <priority>0.9</priority>
 </url>
 
-<url>
-  <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/maszyny-przemyslowe.html</loc>
-  <lastmod>2026-03-03</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.9</priority>
-</url>
-
-<url>
-  <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/chemikalia-i-surowce.html</loc>
-  <lastmod>2026-03-03</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.9</priority>
-</url>
-
-<url>
-  <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/komponenty-elektroniczne.html</loc>
-  <lastmod>2026-03-03</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.9</priority>
-</url>
-
-<url>
-  <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/narzedzia-i-sprzet.html</loc>
-  <lastmod>2026-03-03</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.9</priority>
-</url>
-
-<url>
-  <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/pojazdy-i-transport.html</loc>
-  <lastmod>2026-03-03</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.9</priority>
-</url>
-
-<url>
-  <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/dom-ogrod-odziez-i-dodatki.html</loc>
-  <lastmod>2026-03-03</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.9</priority>
-</url>
-
-<url>
-  <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/energia-odnawialna.html</loc>
-  <lastmod>2026-03-03</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.9</priority>
-</url>
-
-<url>
-  <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/uroda-sport-i-zdrowie.html</loc>
-  <lastmod>2026-03-03</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.9</priority>
-</url>
-
-<url>
-  <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/artykuly-biurowe.html</loc>
-  <lastmod>2026-03-03</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.9</priority>
-</url>
-
-<url>
-  <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/pozostale-kategorie.html</loc>
-  <lastmod>2026-03-03</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
+<!-- Dodaj analogicznie pozostałe podstrony -->
 
 </urlset>
