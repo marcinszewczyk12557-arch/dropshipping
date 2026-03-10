@@ -1,0 +1,27 @@
+<h2>Generator oferty AI</h2>
+
+<textarea id="description"
+placeholder="Opis zapotrzebowania klienta"></textarea>
+
+<button onclick="generate()">Generuj ofertę</button>
+
+<div id="result"></div>
+
+<script>
+
+function generate(){
+
+let text=description.value
+
+let offer=
+
+"Propozycja oferty GLOBAL DROPSHIPPING:\n\n"+
+"Produkt: "+text+"\n"+
+"Finansowanie: leasing uproszczony lub raty\n"+
+"Możliwa korekta parametrów produktu oraz ceny."
+
+document.getElementById("result").innerText=offer
+
+}
+
+</script>
