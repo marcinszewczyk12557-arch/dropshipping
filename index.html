@@ -1,121 +1,36 @@
-<!DOCTYPE html>
-<html lang="pl">
+<!DOCTYPE html><html lang="pl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dropshipping - Prezentacja Sklepu</title>
+<title>Indywidualna Platforma Zakupowa</title>
 <style>
-* { margin:0; padding:0; box-sizing:border-box; }
-body { font-family: Arial, sans-serif; background:#f8f9fa; line-height:1.5; color:#333; }
-
-nav { background:#007BFF; color:white; position:sticky; top:0; z-index:1000; }
-nav .nav-container { display:flex; justify-content:space-between; align-items:center; padding:1rem; flex-wrap:wrap; }
-nav h1 { font-size:1.5rem; }
-.menu-toggle { display:none; font-size:1.5rem; cursor:pointer; }
-
-ul.menu { list-style:none; display:flex; gap:1rem; flex-wrap:wrap; }
-ul.menu li { position:relative; }
-ul.menu li a { color:white; text-decoration:none; padding:0.5rem 1rem; display:block; }
-ul.menu li a:hover { background:rgba(255,255,255,0.2); border-radius:5px; }
-
-.mega { display:none; position:absolute; left:0; top:100%; width:100vw; background:white; color:black; padding:1rem; box-shadow:0 4px 6px rgba(0,0,0,0.1); }
-.mega .category { display:flex; flex-wrap:wrap; gap:1rem; }
-.mega .product { width:150px; text-align:center; border:1px solid #ddd; padding:0.5rem; border-radius:5px; background:white; }
-.mega .product img { width:100%; border-radius:5px; }
-.mega .product p { margin:0.5rem 0 0; font-size:0.85rem; }
-.mega .product .price { margin-top:0.25rem; font-weight:bold; color:#007BFF; font-size:0.9rem; }
-
-ul.menu li:hover .mega { display:flex; }
-
-@media(max-width:768px){
-  .menu-toggle{ display:block; }
-  ul.menu { display:none; flex-direction:column; width:100%; }
-  ul.menu.show { display:flex; }
-  .mega { position:static; width:100%; flex-wrap:wrap; padding:0.5rem 0; box-shadow:none; display:none; }
-  ul.menu li.show-mega .mega { display:flex; flex-wrap:wrap; gap:0.5rem; }
-}
-
-header { padding:2rem; background:white; margin:0.5rem; border-radius:5px; border:1px solid #ddd; }
-header h2 { color:#007BFF; margin-bottom:1rem; }
-header p { margin-bottom:0.5rem; }
-
-section { padding:2rem; border-bottom:1px solid #ddd; background:white; margin:0.5rem; border-radius:5px; }
-section h2 { margin-bottom:1rem; color:#007BFF; }
-
+body{font-family:Arial,Helvetica,sans-serif;margin:0;background:#f5f5f5;color:#222}
+header{background:#0a3d62;color:white;padding:30px;text-align:center}
+section{max-width:900px;margin:auto;padding:30px}
+.card{background:white;border-radius:10px;padding:25px;margin-bottom:25px;box-shadow:0 5px 15px rgba(0,0,0,0.08)}
+h2{margin-top:0}
+.highlight{font-size:22px;color:#0a3d62;font-weight:bold}
+form{display:grid;gap:15px}
+input,textarea,button{padding:12px;border-radius:6px;border:1px solid #ccc;font-size:16px}
+button{background:#0a3d62;color:white;border:none;cursor:pointer}
+button:hover{background:#07406b}
+footer{text-align:center;padding:20px;background:#eee}
 </style>
 </head>
-<body>
-
-<nav>
-<div class="nav-container">
-<h1>Dropshipping</h1>
-<span class="menu-toggle">&#9776;</span>
-<ul class="menu">
-
-<!-- Tutaj wklejamy 37 kategorii z placeholderami 4-5 produktów każda -->
-<!-- Dla czytelności pokażę przykładowo 3 pierwsze kategorie, resztę kopiujesz i zmieniasz numery -->
-<li><a href="#elektronika">Elektronika</a>
-  <div class="mega"><div class="category">
-    <div class="product"><img src="https://via.placeholder.com/150" alt="Produkt 1"><p>Produkt 1</p><p class="price">99 zł</p></div>
-    <div class="product"><img src="https://via.placeholder.com/150" alt="Produkt 2"><p>Produkt 2</p><p class="price">149 zł</p></div>
-    <div class="product"><img src="https://via.placeholder.com/150" alt="Produkt 3"><p>Produkt 3</p><p class="price">79 zł</p></div>
-    <div class="product"><img src="https://via.placeholder.com/150" alt="Produkt 4"><p>Produkt 4</p><p class="price">129 zł</p></div>
-  </div></div></li>
-
-<li><a href="#bezpieczenstwo">Bezpieczeństwo</a>
-  <div class="mega"><div class="category">
-    <div class="product"><img src="https://via.placeholder.com/150" alt="Produkt 5"><p>Produkt 5</p><p class="price">49 zł</p></div>
-    <div class="product"><img src="https://via.placeholder.com/150" alt="Produkt 6"><p>Produkt 6</p><p class="price">59 zł</p></div>
-    <div class="product"><img src="https://via.placeholder.com/150" alt="Produkt 7"><p>Produkt 7</p><p class="price">89 zł</p></div>
-    <div class="product"><img src="https://via.placeholder.com/150" alt="Produkt 8"><p>Produkt 8</p><p class="price">99 zł</p></div>
-  </div></div></li>
-
-<li><a href="#maszyny-przemyslowe">Maszyny przemysłowe</a>
-  <div class="mega"><div class="category">
-    <div class="product"><img src="https://via.placeholder.com/150" alt="Produkt 9"><p>Produkt 9</p><p class="price">599 zł</p></div>
-    <div class="product"><img src="https://via.placeholder.com/150" alt="Produkt 10"><p>Produkt 10</p><p class="price">699 zł</p></div>
-    <div class="product"><img src="https://via.placeholder.com/150" alt="Produkt 11"><p>Produkt 11</p><p class="price">799 zł</p></div>
-    <div class="product"><img src="https://via.placeholder.com/150" alt="Produkt 12"><p>Produkt 12</p><p class="price">899 zł</p></div>
-  </div></div></li>
-
-<!-- Kontynuuj analogicznie dla pozostałych 34 kategorii -->
-
-</ul>
-</div>
-</nav>
-
-<!-- Sekcja wizytówki / prezentacji sklepu -->
-<header>
-<h2>Witamy w Dropshippingu Marcina Szewczyka</h2>
-<p>Dzień dobry, nazywam się <strong>Marcin Szewczyk</strong> i prezentuję wszystkim Państwu <strong>"Dni Otwarcia"</strong> mojej w pełni prywatnej finansowo-handlowej agencji zwanej jako <strong>"dropshipping"</strong> należącej do Marcina Szewczyka, z zastrzeżonymi wszystkimi prawami autorskimi.</p>
-<p>Luksusowa oferta promocyjna limitowanej edycji z okazji wspomnianych <strong>Dni Otwarcia</strong> obejmuje widoczne na dołączonych zdjęciach produkty marek takich jak <strong>Nubia, Samsung, Lenovo, Dell, HP</strong> w najbardziej konkurencyjnych na rynku cenach. Ilość produktów w promocji jest ograniczona.</p>
-<p>Zapraszamy do zapoznania się z pełną ofertą poniżej.</p>
-</header>
-
-<!-- Sekcje dla każdej kategorii -->
-<div class="content">
-<section id="elektronika"><h2>Elektronika</h2><p>Wstaw swoje produkty w tej sekcji.</p></section>
-<section id="bezpieczenstwo"><h2>Bezpieczeństwo</h2><p>Wstaw swoje produkty w tej sekcji.</p></section>
-<section id="maszyny-przemyslowe"><h2>Maszyny przemysłowe</h2><p>Wstaw swoje produkty w tej sekcji.</p></section>
-<!-- Dodaj pozostałe sekcje dla wszystkich 37 kategorii analogicznie -->
-</div>
-
-<script>
-const toggle=document.querySelector('.menu-toggle');
-const menu=document.querySelector('ul.menu');
-toggle.addEventListener('click',()=>menu.classList.toggle('show'));
-
-const menuItems=document.querySelectorAll('ul.menu>li>a');
-menuItems.forEach(item=>{
-  item.addEventListener('click',e=>{
-    if(window.innerWidth<=768){
-      e.preventDefault();
-      const parent=item.parentElement;
-      parent.classList.toggle('show-mega');
-    }
-  });
-});
-</script>
-
-</body>
-</html>
+<body><header>
+<h1>Indywidualna Platforma Zakupowa</h1>
+<p>Zakupy dopasowane do Twoich oczekiwań finansowych i zakupowych</p>
+</header><section><div class="card">
+<h2>Nasza oferta</h2>
+<p>
+Oferujemy możliwość zakupu szerokiego asortymentu produktów z wyjątkiem towarów prawnie zakazanych.
+Każda oferta przygotowywana jest indywidualnie na podstawie przesłanych przez Państwa oczekiwań
+finansowych oraz preferencji zakupowych.
+</p><p class="highlight">
+Gwarantujemy ceny około 84% standardowej ceny detalicznej rynku.
+</p><p>
+Naszym celem jest maksymalna transparentność oraz dopasowanie oferty do realnych potrzeb klienta.
+</p>
+</div><div class="card">
+<h2>Prześlij swoje oczekiwania zakupowe</h2>
+<p>Opisz jakich produktów szukasz oraz jaki jest Twój budżet. Przygotujemy indywidualną propozycję.</p><form action="mailto:twoj_email@example.com" method="post" enctype="text/plain"><label>Imię i nazwisko</label>
